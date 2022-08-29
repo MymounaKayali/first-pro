@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        td, th 
+        {
+            border: 1px , solid , black;
+            padding: 8px;
+        }
+        th
+        {
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    </style>
+
+</head>
+<body>
+    <div style="margin: 10px;">
+        <input type="text" name="" id="name" placeholder="user name">
+        <input type="text" name="" id="age" placeholder="user age">
+        <input type="text" name="" id="country" placeholder="user country">
+        <input type="submit" value="Add User" id="addUser">
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>country</th>
+            </tr>
+        </thead>
+        <tbody id="tableUser" >
+            
+        </tbody>
+
+    </table>
+    <div id="user" style="margin: 10px; border: honeydew , 2px;">
+
+    </div>
+
+    <script src="users.js" defer></script>
+</body>
+</html>
